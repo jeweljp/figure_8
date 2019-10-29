@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Figure 8</title> 
+  </head>
+  <body>
+    <h1>Level 8</h1>
+    <img src="https://github.com/jeweljoppan/images/blob/master/finalone.jpg?raw=true" width="800" height="350">
+    <p><abbr title="The power which resides matters less than the one which causes.">Enter the key:</abbr></p>
+     <form action="/validate/" method="POST">{% csrf_token %}
+        <input type="text" name="Key"><br><br>
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="Reset"/>   
+        </form>
+  </body>
+</html>
